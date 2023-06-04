@@ -1,0 +1,113 @@
+@import url(./univers.css);
+
+.headerimg_3{
+    width: 177px;
+    height: 52px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+.headerimg_3 img{
+    width: 177px;
+    height: 52px;
+}
+
+
+.mainContent{
+        /* 凝胶布局 */
+        width: 1000px;
+        height: 850px;
+        margin: 400px auto 0 auto;
+    
+        /* 窗口样式 */
+        border-radius: 10px;
+        
+        position: static;
+    
+        font-family:Impact, '黑体', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 1.5em;
+        line-height: 1;
+}
+
+.content_1{
+    width: 634px;
+    height: 634px;
+    margin-top: 100px;
+    margin-left: 40px;
+
+    border-width: 3px;
+    border-radius: 10px;
+    border-left-style: solid;
+    border-top-style: solid;
+    border-color: rgb(213, 213, 213);
+
+    float: left;
+
+    background-color: rgb(255, 255, 255);
+    background-image: url(../Image/二哈.jpg);
+    background-size: 634px 634px;
+    background-repeat: no-repeat;
+
+    text-align: left;
+
+}
+.content_1 .box{
+    width: 634px;
+    height: 634px;
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(3px);
+
+}
+.content_1 table{
+    height: 600px;
+    padding-left: 20px;
+}
+.content_1 td{
+    width: 160px;
+
+}
+.content_1 .tableMiddle_1{
+    width: 100px;
+    border-right:dashed;
+    border-color: rgb(77, 77, 77);
+    border-width: 2px;
+}
+.content_1 .tableMiddle_2{
+    padding-left: 30px;
+}
+
+.content_2{
+    width: 300px;
+    height: 634px;
+    margin-top: 100px;
+    margin-right: 10px;
+
+    text-align: right;
+
+    border-width: 3px;
+    border-radius: 10px;
+    border-right-style: solid;
+    border-top-style: solid;
+    border-color: rgb(213, 213, 213);
+
+    float: right;
+
+    background-color: rgba(255, 255, 255, 0);
+}
+.content_2 .img_1{
+    width: 279px;
+    border-radius: 10px;
+}
+.content_2 .img_2{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    position: absolute;
+    top:615px;
+    right: 360.5px;
+}
+.content_2 .img_3{
+    margin-top: 3px;
+    height: 466px;
+    border-radius: 10px;
+}

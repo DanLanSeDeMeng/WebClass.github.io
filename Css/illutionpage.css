@@ -1,0 +1,76 @@
+@import url(./univers.css);
+
+.headerimg_3{
+    width: 177px;
+    height: 52px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+.headerimg_3 img{
+    width: 145px;
+    height: 50px;
+}
+
+.mainContent{
+    /* 凝胶布局 */
+    width: 1000px;
+    height: 600px;
+    margin: 400px auto 0 auto;
+    padding-top: 100px;
+
+    /* 窗口样式 */
+    border-radius: 10px;
+    
+    position: static;
+
+    font-family:Impact, '黑体', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5em;
+    line-height: 1;
+}
+
+.content_1{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 3px;
+}
+.content_1 article{
+    font-size: 2em;
+    text-align: center;
+}
+
+.content_2{
+    width: 100%;
+    margin-top: 40px;
+}
+.content_2 .article_1{
+    width: 200px;
+    padding-bottom: 3px;
+    font-size: 1.6em;
+    border-bottom: solid;
+    border-width: 4px;
+    border-color: rgba(121, 170, 206, 0.779);
+}
+.content_2 .article_2{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.content_3{
+    width: 100%;
+    margin-top: 130px;
+}
+.content_3 .article_1{
+    width: 200px;
+    padding-bottom: 3px;
+    font-size: 1.6em;
+    border-bottom: solid;
+    border-width: 4px;
+    border-color: rgba(121, 170, 206, 0.779);
+}
+.content_3 .article_2{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+

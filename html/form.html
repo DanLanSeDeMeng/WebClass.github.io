@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Css/formpage.css">
+</head>
+<body>
+    <header>
+        <!-- 将页眉的左侧图片做流体布局，令其float在左侧 -->
+        <section>
+            <a href="../index.html"><img class="headerimg_1" src="../image/阿巴阿巴-矢量图.png" ></a>
+            <img class="headerimg_2" src="../Image/页眉文字-removebg-preview.png">
+            <section class="headerimg_3">
+                <img src="../Image/表单提交-removebg-preview.png">
+            </section>
+        </section>
+    </header>
+    <nav>
+        <!-- 导航栏做表格布局，共四个单元格，每个单元格对应一个页面 -->
+        <section class="table_1">
+            <table class="tableContainer_1">
+                <tr class="tableRow_1">
+                    <th class="tableCell_1"><a href="../index.html"><article>主页</article></a></th>
+                    <th class="tableCell_1"><a href="./author.html"><article>作者简介</article></a></th>
+                    <th class="tableCell_1"><a href="./form.html"><article>破碎时空</article></a></th>
+                    <th class="tableCell_1"><a href="./illution.html"><article>关于本站</article></a></th>
+                </tr>
+            </table>
+        </section>
+    </nav>
+    
+    <!-- 表单区域主要采用表格布局 -->
+    <section class="mainContent">
+        <section class="content_1">
+            <form>
+                <table>
+                    <tr>
+                        <td class="colum_1">姓名：</td>
+                        <td class="colum_2"><input type="text" name="name" placeholder="请输入姓名"></td>
+                    </tr>
+                    <tr>
+                        <td class="colum_1">性别：</td>
+                        <td class="colum_2">
+                            <input type="radio" name="sex">男<br>
+                            <input type="radio" name="sex">女<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="colum_1">满意度：</td>
+                        <td class="colum_2">
+                            <select name="level">
+                                <option value="1">1星</option>
+                                <option value="2">2星</option>
+                                <option value="3">3星</option>
+                                <option value="4">4星</option>
+                                <option value="5">5星</option>
+                             </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="colum_1">问卷：</td>
+                        <td class="colum_2">
+                            <input type="checkbox" name="nice">我喜欢这个网站！<br>
+                            <input type="checkbox" name="nicer">我很喜欢这个网站！<br>
+                            <input type="checkbox" name="nicest">我最喜欢这个网站！<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="colum_1">提交：</td>
+                        <td class="colum_2"><button type="submit">提交</button></td>
+                    </tr>
+
+                </table>
+            </section>
+            <section class="content_2">
+                <form>
+                    <table>
+                        <tr>
+                            <td class="colum_1">意见填写与沟通：</td>
+                            <td class="colum_2"><textarea rows="10" cols="50">请填写</textarea></td>
+                        </tr>
+                        <tr>
+                            <td class="colum_1">提交：</td>
+                            <td class="colum_2"><button type="submit">提交</button></td>
+                        </tr>
+                    </table>    
+                </form>
+            </form>
+        </section>
+    </section>
+
+    <!-- 页脚，进行版权声明 -->
+    <footer>
+        <section class="rightClaim">
+            <article>Copyright © 2023 Zhang ChaoYi. All Rights Reserved.</article>
+            <article>张超怡 数金2101 Web结课作品设计</article>
+            <article>版权所有，侵权必究！</article>
+        </section>
+    </footer>
+</body>
+</html>

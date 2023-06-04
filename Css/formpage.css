@@ -1,0 +1,61 @@
+@import url(./univers.css);
+
+.headerimg_3{
+    width: 177px;
+    height: 52px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+.headerimg_3 img{
+    width: 217px;
+    height: 60px;
+}
+
+.mainContent{
+    /* 凝胶布局 */
+    width: 1000px;
+    height: 450px;
+    margin: 400px auto 0 auto;
+
+    /* 窗口样式 */
+    border-radius: 10px;
+    
+    position: static;
+
+    font-family:Impact, '黑体', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5em;
+    line-height: 1;
+
+}
+
+.content_1{
+    margin-top: 100px;
+    width: 490px;
+    float: left;
+}
+.content_1 tr{
+    height: 50px;
+}
+.content_1 .colum_1{
+    width: 80px;
+}
+.content_1 .colum_2{
+    width: 240px;
+    padding-left: 10px;
+}
+
+.content_2{
+    margin-top: 100px;
+    width: 490px;
+    float: right;
+}
+.content_2 .colum_1{
+    width: 240px;
+    text-align: center;
+    vertical-align: middle;
+}
+.content_2 .colum_2{
+    width: 240px;
+    padding-left: 10px;
+}
